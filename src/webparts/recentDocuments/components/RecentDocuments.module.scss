@@ -1,0 +1,46 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+.recentDocuments {
+  .container {
+    margin: 0px auto;
+    font-family: "Segoe UI";
+  }
+  .row {
+     background-color: white;// "[theme:primaryBackground, default:red]";
+  }
+
+  .column {
+    margin: 0px 0px;
+   // width: 100%;
+  }
+  .title {
+  	color: "[theme:primaryText, default:red]";
+    font-size: 16px;
+    line-height: 0;
+    margin-bottom: 20px;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0px;   
+    font-size: 14px;
+    font-family: "Segoe UI"; 
+    li{
+      padding: 10px;
+      overflow: auto;
+    }
+    li img {
+      float: left;
+      margin: 0 15px 0 0;
+    }
+    li p{
+      margin-top: 5px;
+    }
+    li hr{
+      margin-top: 20px;
+      background-color: #E8F3F2;
+    }
+    li a:link{
+      text-decoration: none;
+      color: "[theme:primaryText, default:red]";
+    }
+  }
+}

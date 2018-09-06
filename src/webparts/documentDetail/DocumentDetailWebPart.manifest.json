@@ -1,0 +1,36 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "eeb9a919-e5b5-458e-bb36-5bd908f30a3f",
+  "alias": "DocumentDetailWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "DocuFly"
+      },
+      "title": {
+        "default": "Document Detail"
+      },
+      "description": {
+        "default": "Document Detail Web Part"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "noDocumentMessage": "There are no documents to display!",
+        "showDescription": false,
+        "searchResultPage": "Home.aspx",
+        "shareBodyContent": "Please copy and paste following URL to your browser",
+        "createdDateLabel": "Uploaded Date",
+        "issueDateLabel": "Issue Date",
+        "categoryLabel": "Document Category",
+        "managedProperties": "",
+        "contentManageProperty": "HitHighlightedSummary",
+        "managedPropertyForDescription": "HitHighlightedSummary"
+      }
+    }
+  ]
+}

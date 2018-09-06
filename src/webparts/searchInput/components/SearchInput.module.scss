@@ -1,0 +1,67 @@
+// sass-lint:disable class-name-format
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+.searchInput {
+  .container {
+    margin: 0px auto;
+    font-family: "Segoe UI";
+    box-sizing: border-box;
+  }
+  * {
+    box-sizing: inherit;
+  }
+  .row {
+    background-color: #F3F3F3;
+    margin:0;
+  }
+  .column {
+    margin: 17px 0px;
+    padding: 0px 20px;
+  }
+  .title{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333333;
+    line-height: 0;
+  }
+  .documentIcon{
+    float: left;
+    width: 50px;
+    text-align: center;
+    font-size:10px;
+    line-height: 12px;
+  }
+  
+//End template
+
+.embedAfield {
+ 
+  position: relative;
+  input {
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid #333333;
+    background-color: #F3F3F3;
+    color: #333333;
+  }
+  a {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    // Only styling from here, you can discard this
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    border-radius: 3px;
+   // padding: 10px;
+    transition: all .2s;
+    img {
+      background-color: #F3F3F3
+    }
+  }
+}
+.atagWithSearchIcon{
+  margin-right: 40px;
+}
+  
+}

@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "cc-document-centre",
+    "libraryId": "70780f35-2056-4470-a9d0-961d98c6c62f",
+    "environment": "spo"
+  }
+}

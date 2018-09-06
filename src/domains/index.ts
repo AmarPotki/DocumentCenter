@@ -1,0 +1,12 @@
+export { IFile } from "./IFile";
+export { IList } from "./IList";
+export { IPage } from "./IPage";
+export { IResponseFile } from "./IResponseFile";
+export { IListItem } from "./IListItem";
+export { IDocumentItem } from "./IDocumentItem";
+export { ICCDocument } from "./ICCDocument";
+export { IAssociatedDocument } from "./IAssociatedDocument";
+export { IResponseAssociatedDocument } from "./IResponseAssociatedDocument";
+export { IContentType } from "./IContentType";
+export { ITaxonomyItem } from "./ITaxonomyItem";
+export { ISearchOptions } from "./ISearchOptions";

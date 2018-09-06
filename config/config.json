@@ -1,0 +1,69 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "document-detail-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/documentDetail/DocumentDetailWebPart.js",
+          "manifest": "./src/webparts/documentDetail/DocumentDetailWebPart.manifest.json"
+        }
+      ]
+    },
+    "document-search-result-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/documentSearchResult/DocumentSearchResultWebPart.js",
+          "manifest": "./src/webparts/documentSearchResult/DocumentSearchResultWebPart.manifest.json"
+        }
+      ]
+    },
+    "related-documents-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/relatedDocuments/RelatedDocumentsWebPart.js",
+          "manifest": "./src/webparts/relatedDocuments/RelatedDocumentsWebPart.manifest.json"
+        }
+      ]
+    },
+    "search-input-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/searchInput/SearchInputWebPart.js",
+          "manifest": "./src/webparts/searchInput/SearchInputWebPart.manifest.json"
+        }
+      ]
+    },
+    "results-filter-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/resultsFilter/ResultsFilterWebPart.js",
+          "manifest": "./src/webparts/resultsFilter/ResultsFilterWebPart.manifest.json"
+        }
+      ]
+    },
+    "recent-documents-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/recentDocuments/RecentDocumentsWebPart.js",
+          "manifest": "./src/webparts/recentDocuments/RecentDocumentsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "sp-pnp-js": "https://cdnjs.cloudflare.com/ajax/libs/sp-pnp-js/2.0.8/pnp.min.js",
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-2.1.1.min.js",
+      "globalName": "jquery"
+    }
+  },
+  "localizedResources": {
+    "DocumentDetailWebPartStrings": "lib/webparts/documentDetail/loc/{locale}.js",
+    "DocumentSearchResultWebPartStrings": "lib/webparts/documentSearchResult/loc/{locale}.js",
+    "RelatedDocumentsWebPartStrings": "lib/webparts/relatedDocuments/loc/{locale}.js",
+    "SearchInputWebPartStrings": "lib/webparts/searchInput/loc/{locale}.js",
+    "ResultsFilterWebPartStrings": "lib/webparts/resultsFilter/loc/{locale}.js",
+    "RecentDocumentsWebPartStrings": "lib/webparts/recentDocuments/loc/{locale}.js"
+  }
+}
