@@ -24,7 +24,7 @@ export class Main extends React.Component<IMainProps, IMainState> {
         super(props);
 
         // tslint:disable-next-line:max-line-length
-        // (path:"https://cielocosta.sharepoint.com/sites/AshkanDev/Shared Documents" *) OR (path:"https://cielocosta.sharepoint.com/sites/AshkanDev/SitePages" *)
+        // (path:"" *) OR (path:"" *)
 
         // let tmpListPaths: string[] = this.props.webPartProperties.listPath.split(",");
 
@@ -35,7 +35,7 @@ export class Main extends React.Component<IMainProps, IMainState> {
         // }
 
         // tslint:disable-next-line:max-line-length
-        // this.tmpQuertyText = "(path:\"https://cielocosta.sharepoint.com/sites/AshkanDev/Shared Documents\" *) OR (path:\"https://cielocosta.sharepoint.com/sites/AshkanDev/SitePages\" *)";
+        // this.tmpQuertyText = "(path:\" Documents\" *) OR (path:\"" *)";
 
         // console.log("this.tmpQuertyText: ");
         // console.log(this.tmpQuertyText);

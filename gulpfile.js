@@ -7,9 +7,9 @@ const sppkgDeploy = require('node-sppkg-deploy');
 const fs = require('fs');
 
 const environmentInfo = {
-  "username": "amar.potki@cielocosta.com",
+  "username": "amar.potki@*.com",
   "password": "<production-password>",
-  "tenant": "cielocosta",
+  "tenant": "",
   "cdnSite": "/sites/CCDCDev",
   "cdnLib": "SiteAssets/webparts/documentcenter/",
   "catalogSite": "sites/AppCatalog"

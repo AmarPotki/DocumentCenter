@@ -14,13 +14,10 @@ Related Document WebPart Designed to use on Microsoft Sharepoint Online / Office
 #### Solution Name
 Document Center
 
-## Author(s)
-Ramin Ahmadi, Ben Weeks
-
 ### How-to
 
   * in your web browser navigate to the page you want to add this web part
-  * add the Related Document web part from Cielo Costa group
+  * add the Related Document web part from 
   * in the configuration specify the **Lists Name** for the related documents to be shown.
   * in the configuration specify the **Ascending** toggle for the sort order of the result to be in Ascending or Descending order.
   * in the configuration specify the **No Documents Message** to set a custome message to be shown when no items is found.

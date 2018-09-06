@@ -12,9 +12,6 @@ SharePoint Framework client-side web part built using React for displaying the i
 Solution Name
 Document Center
 
-Solution|Author(s)
-Ramin Ahmadi,Ben Weeks
-
 ## Version history
 
 Version|Date|Comments
@@ -33,7 +30,7 @@ Version|Date|Comments
 ### How-to
 
   - in your web browser navigate to the page you want to add this web part
-  - add the Document Detail web part from Cielo Costa group
+  - add the Document Detail web part from 
   - in the configuration specify the **Search result page**,also optionally the **No document found message** and **Show description?** and **Select desire Properties** and **Email body message**.
   - confirm the changes by clicking the **Apply** button
 

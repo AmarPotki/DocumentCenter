@@ -18,13 +18,10 @@ Results Filter Web Part Designed to use on Microsoft Sharepoint Online / Office 
 #### Solution Name
 Results Filter
 
-## Author(s)
-Amar Potki, Ashkan Shirian, Ramin Ahmadi, Ben Weeks
-
 ### How-to
 
   * in your web browser navigate to the page you want to add this web part
-  * add the Results Filter web part from Cielo Costa group
+  * add the Results Filter web part from 
   * in the configuration select the **TermsSet** that you want refind search Result with them.
 
 ## Features

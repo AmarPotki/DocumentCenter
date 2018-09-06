@@ -18,13 +18,10 @@ Search Input Web Part Designed to use on Microsoft Sharepoint Online / Office 36
 #### Solution Name
 Search Input
 
-## Author(s)
-Amar Potki, Ashkan Shirian, Ramin Ahmadi, Ben Weeks
-
 ### How-to
 
   * in your web browser navigate to the page you want to add this web part
-  * add the Search Input web part from Cielo Costa group
+  * add the Search Input web part from
   * in the configuration enter the **Placeholder** that you want to be search input's Placeholder.
 
 ## Features

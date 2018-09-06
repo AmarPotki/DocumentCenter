@@ -14,13 +14,10 @@ Recent Document WebPart Designed to use on Microsoft Sharepoint Online / Office 
 #### Solution Name
 Document Center
 
-## Author(s)
-Ramin Ahmadi,Amar Potki, Ashkan Shirian, Ben Weeks
-
 ### How-to
 
   * in your web browser navigate to the page you want to add this web part
-  * add the Recent Document web part from Cielo Costa group
+  * add the Recent Document web part 
   * in the configuration specify the **Documents Name** for the Recent documents to be shown.
   * in the configuration specify the **Documents Count** for the count of Recent documents to be shown.
 

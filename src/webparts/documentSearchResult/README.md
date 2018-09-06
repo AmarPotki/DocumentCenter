@@ -14,13 +14,10 @@ Document Search Result WebPart Designed to use on Microsoft Sharepoint Online / 
 #### Solution Name
 Document Center
 
-## Author(s)
-Ashkan Shirian, Ramin Ahmadi, Ben Weeks
-
 ### How-to
 
   * in your web browser navigate to the page you want to add this web part
-  * add the Document Result web part from Cielo Costa group
+  * add the Document Result web part 
   * in the configuration specify the **Search Lists** and select the desire lists to be searched.
   * confirm the changes by clicking the **Apply** button
 
