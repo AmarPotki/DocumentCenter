@@ -21,7 +21,7 @@ Search Input
 ### How-to
 
   * in your web browser navigate to the page you want to add this web part
-  * add the Search Input web part from
+  * add the Search Input web part
   * in the configuration enter the **Placeholder** that you want to be search input's Placeholder.
 
 ## Features
