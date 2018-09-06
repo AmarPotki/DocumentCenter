@@ -21,7 +21,7 @@ Results Filter
 ### How-to
 
   * in your web browser navigate to the page you want to add this web part
-  * add the Results Filter web part from 
+  * add the Results Filter web part 
   * in the configuration select the **TermsSet** that you want refind search Result with them.
 
 ## Features
