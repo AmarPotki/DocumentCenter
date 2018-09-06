@@ -1,4 +1,4 @@
-## cc-document-centre
+## document-centre
 
 This is where you include your WebPart documentation.
 
